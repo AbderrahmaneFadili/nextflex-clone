@@ -11,8 +11,8 @@ function App() {
       {/* Banner */}
       <Banner />
       {/* Rows */}
-      {[3, 4, 3, 4].map((r) => (
-        <Row />
+      {[3, 4, 3, 4].map((r, i) => (
+        <Row key={i.toString()} />
       ))}
     </div>
   );

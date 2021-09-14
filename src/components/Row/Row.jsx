@@ -33,9 +33,11 @@ function Row() {
           {[
             3, 4, 5, 6, 7, 7, 8, 8, 8, 8, 8, 8, 4, 8, 8, 8, 3, 4, 5, 6, 7, 7, 8,
             8, 8, 8, 8, 8, 4, 8, 8, 8,
-          ].map((im) => (
+          ].map((im, i) => (
             <img
+              key={i.toString()}
               className="my-2"
+              alt={`${i}`}
               src="https://i.picsum.photos/id/15/200/300.jpg?hmac=lozQletmrLG9PGBV1hTM1PnmvHxKEU0lAZWu8F2oL30"
             />
           ))}
