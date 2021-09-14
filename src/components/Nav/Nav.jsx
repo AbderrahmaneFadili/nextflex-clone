@@ -21,6 +21,9 @@ function Nav() {
   return (
     //Nav
     <div
+      style={{
+        zIndex: 9000,
+      }}
       className={`w-full p-2 pl-6 pt-4 fixed ${
         show ? `bg-black` : `bg-transparent`
       }`}

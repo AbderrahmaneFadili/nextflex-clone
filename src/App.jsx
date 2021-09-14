@@ -5,7 +5,7 @@ import Row from "./components/Row/Row";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app bg-black">
       {/* Nav */}
       <Nav />
       {/* Banner */}
